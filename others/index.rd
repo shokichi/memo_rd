@@ -15,6 +15,6 @@
 == Ubuntu
 * ((<Ubuntu USB Boot|URL:ubuntu_USB_Boot.html>))
 == その他
-* ((<slコマンド|URL:sl.html>))
+* ((<雑文|URL:junk.html>))
 
 =end
