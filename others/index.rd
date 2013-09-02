@@ -12,6 +12,8 @@
 * ((<emacs設定ファイル|URL:emacs_el.html>))
 == Lisp
 * ((<Lisp入門|URL:lisp_intro.html>))
+== git
+* ((<GitHub事始め|URL:git_intro.html>))
 == Ubuntu
 * ((<Ubuntu USB Boot|URL:ubuntu_USB_Boot.html>))
 == その他

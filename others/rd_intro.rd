@@ -12,6 +12,9 @@ Webのページが比較的簡単に作れるRDtoolという便利なものが�
 * OS: Ubuntu12.04
  # apt-get install rdtool
 
+* Emacsを使っている人向け
+ # apt-get install rdtool-elisp
+
 == とりあえず使ってみる
 初めにRDで書かれたファイル hello.rd を作成する.
 hello.rdの中身は以下のようになっている. 
