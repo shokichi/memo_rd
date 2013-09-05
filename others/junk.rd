@@ -50,3 +50,4 @@ OS: Ubuntu
 * ((<リアルslコマンド|URL:http://www.youtube.com/watch?v=Cb70kMCsBV0>))
 
 === 出処
+* ((<豊田正史 % sl|URL:http://www.tkl.iis.u-tokyo.ac.jp/~toyoda/>))
