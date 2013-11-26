@@ -4,7 +4,7 @@
 ############################
 =begin
 = Emacs Twittering-mode
-EmacsからTwitterに投稿しよう
+EmacsからTwitterに投稿
 == ダウンロード
  $ cd ~/.emacs/modules 
  $ git clone git://github.com/hayamiz/twittering-mode.git
@@ -42,6 +42,11 @@ Pinコードを取得してログイン
  C-c C-c
 * ダイレクトメッセージ作成
  d
+* 公式リツイート
+ C-u C-c Enter
+* 非公式リツイート
+ C-c Enter
+
 
 == 参考ページ
 * ((<TwitteringMode-ja|URL:http://www.emacswiki.org/emacs/TwitteringMode-ja>))
