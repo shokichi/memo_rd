@@ -39,16 +39,20 @@ emacs上でShellを扱う
  C-y
 * 切り取り
  C-w
+* 行末まで削除
+C-k
 * Undo
  C-\
 * 検索
- C-f
+ C-s
 * 置換
  M-%
 * 行の先頭に挿入
  C-x rt
 * 保存
  C-x C-s
+* 整列
+ M-x align
 
 == その他
 * バッファの先頭に移動
@@ -65,4 +69,5 @@ emacs上でShellを扱う
  M-x f90-mode
 * emacs設定ファイルの変更を反映
  C-x C-e
+
 =end
