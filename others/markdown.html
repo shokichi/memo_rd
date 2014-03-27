@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <link rel="stylesheet" href="../../../../css/sample.css" type="text/css" />
+</head>
+<body>
+<h1 id="markdown入門">Markdown入門</h1>
+<p>Markdownについて書く</p>
+<hr />
+<h2 id="書き方">書き方</h2>
+<h2 id="emacs-markdow-mode">Emacs markdow-mode</h2>
+<p>markdown-modeをダウンロード</p>
+<pre><code>$ cd .emacs.d/module
+$ git clone git://jblevins.org/git/markdown-mode.git</code></pre>
+<p>.emacs.d/local.elに以下を追加</p>
+<pre><code>;; markdown
+(load-file (expand-file-name &quot;/home/ishioka/.emacs.d/modules/markdown-mode/markdown-mode.el&quot;))
+(add-to-list &#39;auto-mode-alist &#39;(&quot;\\.md$&quot; . markdown-mode))
+(add-to-list &#39;auto-mode-alist &#39;(&quot;\\.markdown$&quot; . markdown-mode))</code></pre>
+<h2 id="変換ツール">変換ツール</h2>
+<h3 id="pandoc">Pandoc</h3>
+<ul>
+<li>Haskellが動く環境が必要</li>
+</ul>
+<p>インストール</p>
+<pre><code># apt-get install pandoc</code></pre>
+<p>使い方</p>
+<pre><code>$ pandoc markdown.md -s -o markdown.html</code></pre>
+<p>css読み込み</p>
+<pre><code>$ pandoc -s -c sample.css markdown.md -o markdown.html</code></pre>
+<p>目次作成</p>
+<pre><code>$ pandoc -s -S --toc -c sample.css markdown.md -o markdown.html</code></pre>
+<h2 id="参考">参考</h2>
+<ul>
+<li><a href="http://mametanuki.hateblo.jp/entry/2012/09/22/MarkdownList#Code%20Blocks">はてなブログで「Markdown記法一覧」を書いてみるテスト</a></li>
+<li><a href="http://qiita.com/sky_y/items/80bcd0f353ef5b8980ee">多様なフォーマットに対応 ドキュメント変換ツールPand を知ろう</a></li>
+</ul>
+</body>
+</html>
