@@ -53,6 +53,8 @@ C-k
  C-x C-s
 * 整列
  M-x align
+* 一括インデント
+ C-M-\
 
 == その他
 * バッファの先頭に移動
@@ -69,5 +71,20 @@ C-k
  M-x f90-mode
 * emacs設定ファイルの変更を反映
  C-x C-e
+* Elispのインターフェース起動
+ M-x ielm
 
+== etags
+タグジャンプ
+ M-. 
+初めにTAGファイルを指定するように言われる
+
+元のところに戻る
+ M-*
+
+* TAGの作成
+ $ etags *.rb
+ $ etags *.rb */*.rb
+
+ 
 =end

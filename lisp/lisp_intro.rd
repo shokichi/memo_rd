@@ -8,15 +8,14 @@
 =begin
 = Lisp 入門
 == まずLispについて
-Lisp(LIst Proseccing language)は1958年生まれのとても古いプログラミング言語
+Lisp(LIst Proseccing language)は1958年生まれのとても古いプログラミング言語であり,  
 FORTRAN(1954)やCOBOL(1959)と同世代である. LispはFORTRANやC言語といった手続き型言語
 と異なり, 関数型言語というものに分類さる. 関数型言語では関数を定義することによって
-プログラムを作成する(ただしLispは手続き型言語). 
+プログラムを作成する. 
 
 == 準備
 以下のコマンドで Common lisp (clisp) をインストールする
  # apt-get install　clisp
-これでインストール完了
 
 試しにlisp を立ち上げてみる
  $ clisp
@@ -39,12 +38,12 @@ FORTRAN(1954)やCOBOL(1959)と同世代である. LispはFORTRANやC言語とい
  Type :h and hit Enter for context help.
  [1]>
 
-終了する時はこれ
+終了
  [2]> (quit)
 
 
 == お約束
-お約束の"Hello world!!"を表示させる
+お約束の"Hello world!!"を表示
 
  > (print "Hello world!!")
  
@@ -273,8 +272,8 @@ if特別式は最初の引数に渡された条件が
 #== 文字データ
 == コメント
 コメントを書きたい時は; を使用する. 
- > ; コメント
 ; 以後の部分がコメントとして処理される. 
+ > ; コメント
 
 == 参考資料
 * 竹内郁雄: 初めての人のためのLISP [増補改訂版], 2010, 翔泳社

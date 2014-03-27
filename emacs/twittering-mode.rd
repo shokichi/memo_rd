@@ -47,6 +47,17 @@ Pinコードを取得してログイン
 * 非公式リツイート
  C-c Enter
 
+=== Timeline spec
+* プロンプトを開く
+ V 
+* homeのtimeline
+ :home
+* 受診したDM
+ :direct_messages
+* 送信したDM
+ :direct_messages_sent
+* 検索
+ :search/QUERY-STRING/
 
 == 参考ページ
 * ((<TwitteringMode-ja|URL:http://www.emacswiki.org/emacs/TwitteringMode-ja>))
