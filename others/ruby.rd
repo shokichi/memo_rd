@@ -5,3 +5,9 @@ rvm --default useが使えなかったのでとりあえずrvmを
  $ rvm reload
 
 問題解決
+
+== irb
+irbで使用されるRubyのバージョンを変更
+* rvmでirbをインストール
+
+== wirble

@@ -103,6 +103,10 @@
 フォルダを切り替える
  g
 
+=== ファイル添付
+ C-c C-a
+
+
 
 == 参考ページ
 * ((<Mewの操作方法|URL:http://cns-guide.sfc.keio.ac.jp/1999/5/2/2.html>))

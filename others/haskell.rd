@@ -62,10 +62,47 @@
  Prelude>
 
 * コンパイル
- $ ghc -o hello hello.hs
+ $ ghc hello.hs
+
+最適化
+ $ ghc -O2 hello.hs
+
+並列化
+ $ ghc -O2 -threaded hello.hs
+
+== href
+hrefはhaskellのレファレンスを表示するコマンドである. 
+
+ダウンロード
+ $ wget http://www.loveruby.net/archive/href/href-0.3.3.tar.gz
+
+展開
+ $ tar zvfx href-0.3.3.tar.gz
+ $ cd href-0.3.3/
+
+コンパイル
+ $ make 
+ $ make bindir=~/bin/ install
+ 
+文字コードをUTFに変換
+ $ nkf -w --overwrite ref/*
+
+データベースの作成
+ $ mkdir -p ~/haskell/lib/doc
+
+以下を.bashrcに追記
+ export HREF_DATADIR=~/haskell/lib/doc/
+
+ $ source ~/.bashrc
+ $ mkhref ref/*
+
+* 使い方
+ $ href
+ $ href [調べたい関数]
 
 == 参考ページ
 * ((<Ubuntu 12.04 に Haskell Platform をインストールする|URL:http://itakeshi.hatenablog.com/entry/2013/02/22/200603>))
 * ((<WheezyにHaskell Platform最新版をインストール|URL:http://takeisamemo.blogspot.jp/2013/11/debianhaskellwheezyhaskell-platform.html>))
 * ((<GitHub haskell-mode|URL:https://github.com/haskell/haskell-mode>))
 * ((<すごいHaskellたのしく学ぼう！|URL:http://ssl.ohmsha.co.jp/cgi-bin/menu.cgi?ISBN=978-4-274-06885-0>))
+* ((<lnzntのHaskell日記 hrefのインストール|URL:http://haskell.g.hatena.ne.jp/lnznt/20101107/1289097092>))

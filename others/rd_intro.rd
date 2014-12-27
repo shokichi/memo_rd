@@ -10,9 +10,10 @@ Webのページが比較的簡単に作れるRDtoolという便利なものが�
 ちなみにこのページの作成にもRDtoolが使用されている. 
 == インストール
 * OS: Ubuntu12.04
+rdtoolをインストール
  # apt-get install rdtool
 
-* Emacsを使っている人向け
+Emacsのrd-modeをインストール
  # apt-get install rdtool-elisp
 
 == とりあえず使ってみる
