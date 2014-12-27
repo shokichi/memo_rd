@@ -24,7 +24,9 @@
 * ((<Ubuntu USB Boot|URL:ubuntu_USB_Boot.html>))
 * ((<Ubuntuにインストールしたもの|URL:ubuntu_installed_soft.html>))
 == その他
+* ((<MarkDown|URL:markdown.html>))
 * ((<GPG鍵|URL:gpg.html>))
+* ((<HTML5|URL:html5.html>))
 * ((<ごみ|URL:junk.html>))
 
 =end
