@@ -73,6 +73,8 @@ C-k
  C-x C-e
 * Elispのインターフェース起動
  M-x ielm
+* バイトコンパイル
+ M-x byte-compile-file
 
 == etags
 タグジャンプ

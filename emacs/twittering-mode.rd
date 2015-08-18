@@ -52,6 +52,8 @@ Pinコードを取得してログイン
 * 非公式リツイート
  C-c Enter
 
+* 
+
 === Timeline spec
 * プロンプトを開く
  V 
